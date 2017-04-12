@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import firebase from 'firebase';
-import logo from './upload.png';
 
 import './App.css';
 import FileUpload from './FileUpload';
@@ -133,7 +132,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
+          <img src="https://firebasestorage.googleapis.com/v0/b/pseudogram-4d9b7.appspot.com/o/Fotos%2Fupload.png?alt=media&token=a0a875dd-f481-464e-8a83-973aa0b687be" className="App-logo" alt="logo"/>
           <h2>Upload your picture now</h2>
         </div>
         {this.renderLoginButton()}
