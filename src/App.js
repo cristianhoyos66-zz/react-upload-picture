@@ -65,7 +65,7 @@ class App extends Component {
     const file = event.target.files[0];
     const storageRef = firebase
       .storage()
-      .ref(`fotos/${file.name}`);
+      .ref(`Fotos/${file.name}`);
     const task = storageRef.put(file);
 
     task.on('state_changed', snapshot => {
